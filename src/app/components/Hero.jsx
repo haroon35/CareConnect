@@ -4,7 +4,7 @@ import { IoPlayCircleOutline } from "react-icons/io5";
 
 export default function Hero() {
   return (
-    <div className=" max-h-screen h-screen bg-[url('./assets/helpinghands3.jpg')] bg-no-repeat bg-cover bg-center backdrop-blur-sm">
+    <div className=" max-h-screen h-screen bg-[url('./assets/helpinghands3.jpg')] bg-no-repeat bg-cover bg-center backdrop-blur-sm shadow-[0_5px_5px_rgba(0,0,0,0.05)]">
       <Header />
       <div className="absolute inset-0  backdrop-blur-sm"></div>
       <div className="w-[90%] md:w-[80%]  m-auto items-center flex flex-col gap-10 justify-center h-screen text-center z-10 relative">
