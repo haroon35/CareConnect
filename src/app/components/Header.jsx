@@ -4,7 +4,7 @@ import { IoMenu } from "react-icons/io5";
 
 export default function Header() {
   return (
-    <div className="fixed top-0 left-0 w-full z-50 bg-transparent backdrop-blur-sm transition-all duration-300 shadow-none hover:shadow-md">
+    <nav className="sticky top-0 left-0 w-full z-50 bg-transparent backdrop-blur-sm transition-all duration-300 shadow-none hover:shadow-md ">
       <div className="flex bg-transparent w-[90%] m-auto items-center justify-between py-10 md:w-[80%] sticky top-0 z-50 ">
         <div>
           <a href="#">
@@ -32,6 +32,6 @@ export default function Header() {
           <IoMenu className="text-4xl md:hidden" />
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
