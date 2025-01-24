@@ -8,7 +8,7 @@ export default function OurVision() {
         Our Vision Is To Build A Community Of Empowered Orphans And People That
         Can Contribute To Society And Humanity At Large.
       </h1>
-      <div className="flex flex-wrap justify-center max-w-[90%] m-auto mt-32  gap-10 md:w-[80%]  mb-20">
+      <div className="flex flex-wrap justify-center max-w-[90%] m-auto mt-32  gap-10 md:w-[80%] mb-32">
         <OurVisionCard
           bgImg="https://havenofhopeintl.org/wp-content/uploads/2019/02/HP-Header.jpg"
           title="Orphan Care"
