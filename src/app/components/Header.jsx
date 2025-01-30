@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { GoHomeFill } from "react-icons/go";
 import { IoMenu } from "react-icons/io5";
@@ -14,21 +15,19 @@ export default function Header() {
             <GoHomeFill className="text-4xl md:hidden" />
           </a>
         </div>
-        <div>
-          <ol className=" capitalize list-none gap-5 hidden md:flex text-lg lg:text-xl  ">
-            <a href="" className="hover:underline hover:text-red-600 ">
-              <li>who we are</li>
-            </a>
-            <a href="" className="hover:underline hover:text-red-500">
-              <li> what we do</li>
-            </a>
-            <a href="" className="hover:underline hover:text-red-500">
-              <li> ways to help</li>
-            </a>
-            <a href="" className="hover:underline hover:text-red-500">
-              <li>donate</li>
-            </a>
-          </ol>
+        <div className=" capitalize list-none gap-5 hidden md:flex text-lg lg:text-xl  ">
+          <Link href="/" className="hover:text-red-500 hover:underline">
+            Home
+          </Link>
+          <Link href="/" className="hover:text-red-500 hover:underline">
+            What we do
+          </Link>
+          <Link href="/" className="hover:text-red-500 hover:underline">
+            Who we are
+          </Link>
+          <Link href="/" className="hover:text-red-500 hover:underline">
+            Login
+          </Link>
           <IoMenu className="text-4xl md:hidden" />
         </div>
       </div>
