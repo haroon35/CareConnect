@@ -5,15 +5,19 @@ import DonationRequests from "./components/DonationRequests";
 import OurVision from "./components/OurVision";
 import SponsorAnOrphan from "./components/SponsorAnOrphan";
 import FundRaising from "./components/FundRaising";
+import OurOrphanages from "./components/OurOrphanages";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
     <div>
       <Hero />
-      <SponsorAnOrphan />
       <DonationRequests />
+      <SponsorAnOrphan />
       <OurVision />
       <FundRaising />
+      <OurOrphanages />
+      <Footer />
     </div>
   );
 }

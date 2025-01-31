@@ -3,7 +3,7 @@ import FundRaiserCard from "./FundRaiserCard";
 
 export default function FundRaising() {
   return (
-    <div className="bg-gray-50 w-full h-[100%] mt-32 mb-32">
+    <div className="bg-gray-50 w-full h-[100%] mt-32">
       <div className="text-center py-32 flex flex-col w-4/5 m-auto">
         <h1 className="text-4xl font-semibold pb-6">Fund Raising</h1>
         <p className="text-xl font-thin">
